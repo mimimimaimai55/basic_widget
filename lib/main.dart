@@ -41,35 +41,25 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
-
         title: Text('Flutter大学'),
-        actions: <Widget>[
-          Icon(Icons.add),Icon(Icons.share),
-        ],
       ),
-      body: Container(
-        height:double.infinity,
-        color: Colors.red,
-        child: Padding(
-          padding: EdgeInsets.all(32.0),
-          child: Row(
-            children: <Widget>[
-              Text('Flutter大学'),
-              Text('Flutter大学'),
-              Text('Flutter大学'),
-            ],
 
+      body: Center(
+        child: ElevatedButton(
+          child:  Text('ElevatedButton'),
+            onPressed: () {
+            //ここに押したら反応するコードを書く
+            },
           ),
-        ),
       ),
+
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }
