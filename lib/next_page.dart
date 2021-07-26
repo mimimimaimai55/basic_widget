@@ -10,10 +10,10 @@ class NextPage extends StatelessWidget{
     ),
     body: Container(
       height: double.infinity,
-      color: Colors.red,
+      color: Colors.green,
       child:  Center(
         child: ElevatedButton(
-          child:  Text('戻る'),
+          child:  Text('戻る''戻る'),
           onPressed: () {
             //ここに押したら反応するコードを書く
             //画面遷移のコード
