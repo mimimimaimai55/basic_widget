@@ -10,7 +10,7 @@ class NextPage extends StatelessWidget{
     ),
     body: Container(
       height: double.infinity,
-      color: Colors.red,
+      color: Colors.green,
       child:  Center(
         child: ElevatedButton(
           child:  Text('戻る'),
